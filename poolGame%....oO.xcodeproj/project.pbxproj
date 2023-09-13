@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60B0CC232AB1FD200051965C /* poolGame_____oOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0CC222AB1FD200051965C /* poolGame_____oOApp.swift */; };
+		60B0CC252AB1FD200051965C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0CC242AB1FD200051965C /* ContentView.swift */; };
+		60B0CC272AB1FD210051965C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B0CC262AB1FD210051965C /* Assets.xcassets */; };
+		60B0CC2B2AB1FD210051965C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B0CC2A2AB1FD210051965C /* Preview Assets.xcassets */; };
+		60B0CC352AB1FD220051965C /* poolGame_____oOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0CC342AB1FD220051965C /* poolGame_____oOTests.swift */; };
+		60B0CC3F2AB1FD220051965C /* poolGame_____oOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0CC3E2AB1FD220051965C /* poolGame_____oOUITests.swift */; };
+		60B0CC412AB1FD220051965C /* poolGame_____oOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B0CC402AB1FD220051965C /* poolGame_____oOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B0CC312AB1FD220051965C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B0CC172AB1FD1F0051965C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B0CC1E2AB1FD1F0051965C;
+			remoteInfo = "poolGame%....oO";
+		};
+		60B0CC3B2AB1FD220051965C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B0CC172AB1FD1F0051965C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B0CC1E2AB1FD1F0051965C;
+			remoteInfo = "poolGame%....oO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60B0CC1F2AB1FD200051965C /* poolGame%....oO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poolGame%....oO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B0CC222AB1FD200051965C /* poolGame_____oOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "poolGame_____oOApp.swift"; sourceTree = "<group>"; };
+		60B0CC242AB1FD200051965C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60B0CC262AB1FD210051965C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B0CC282AB1FD210051965C /* poolGame_____oO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "poolGame_____oO.entitlements"; sourceTree = "<group>"; };
+		60B0CC2A2AB1FD210051965C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60B0CC302AB1FD220051965C /* poolGame%....oOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poolGame%....oOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B0CC342AB1FD220051965C /* poolGame_____oOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "poolGame_____oOTests.swift"; sourceTree = "<group>"; };
+		60B0CC3A2AB1FD220051965C /* poolGame%....oOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poolGame%....oOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B0CC3E2AB1FD220051965C /* poolGame_____oOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "poolGame_____oOUITests.swift"; sourceTree = "<group>"; };
+		60B0CC402AB1FD220051965C /* poolGame_____oOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "poolGame_____oOUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B0CC1C2AB1FD1F0051965C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0CC2D2AB1FD220051965C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0CC372AB1FD220051965C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B0CC162AB1FD1F0051965C = {
+			isa = PBXGroup;
+			children = (
+				60B0CC212AB1FD200051965C /* poolGame%....oO */,
+				60B0CC332AB1FD220051965C /* poolGame%....oOTests */,
+				60B0CC3D2AB1FD220051965C /* poolGame%....oOUITests */,
+				60B0CC202AB1FD200051965C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B0CC202AB1FD200051965C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B0CC1F2AB1FD200051965C /* poolGame%....oO.app */,
+				60B0CC302AB1FD220051965C /* poolGame%....oOTests.xctest */,
+				60B0CC3A2AB1FD220051965C /* poolGame%....oOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B0CC212AB1FD200051965C /* poolGame%....oO */ = {
+			isa = PBXGroup;
+			children = (
+				60B0CC222AB1FD200051965C /* poolGame_____oOApp.swift */,
+				60B0CC242AB1FD200051965C /* ContentView.swift */,
+				60B0CC262AB1FD210051965C /* Assets.xcassets */,
+				60B0CC282AB1FD210051965C /* poolGame_____oO.entitlements */,
+				60B0CC292AB1FD210051965C /* Preview Content */,
+			);
+			path = "poolGame%....oO";
+			sourceTree = "<group>";
+		};
+		60B0CC292AB1FD210051965C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60B0CC2A2AB1FD210051965C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60B0CC332AB1FD220051965C /* poolGame%....oOTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B0CC342AB1FD220051965C /* poolGame_____oOTests.swift */,
+			);
+			path = "poolGame%....oOTests";
+			sourceTree = "<group>";
+		};
+		60B0CC3D2AB1FD220051965C /* poolGame%....oOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60B0CC3E2AB1FD220051965C /* poolGame_____oOUITests.swift */,
+				60B0CC402AB1FD220051965C /* poolGame_____oOUITestsLaunchTests.swift */,
+			);
+			path = "poolGame%....oOUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B0CC1E2AB1FD1F0051965C /* poolGame%....oO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B0CC442AB1FD220051965C /* Build configuration list for PBXNativeTarget "poolGame%....oO" */;
+			buildPhases = (
+				60B0CC1B2AB1FD1F0051965C /* Sources */,
+				60B0CC1C2AB1FD1F0051965C /* Frameworks */,
+				60B0CC1D2AB1FD1F0051965C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poolGame%....oO";
+			productName = "poolGame%....oO";
+			productReference = 60B0CC1F2AB1FD200051965C /* poolGame%....oO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60B0CC2F2AB1FD220051965C /* poolGame%....oOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B0CC472AB1FD220051965C /* Build configuration list for PBXNativeTarget "poolGame%....oOTests" */;
+			buildPhases = (
+				60B0CC2C2AB1FD220051965C /* Sources */,
+				60B0CC2D2AB1FD220051965C /* Frameworks */,
+				60B0CC2E2AB1FD220051965C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B0CC322AB1FD220051965C /* PBXTargetDependency */,
+			);
+			name = "poolGame%....oOTests";
+			productName = "poolGame%....oOTests";
+			productReference = 60B0CC302AB1FD220051965C /* poolGame%....oOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60B0CC392AB1FD220051965C /* poolGame%....oOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B0CC4A2AB1FD220051965C /* Build configuration list for PBXNativeTarget "poolGame%....oOUITests" */;
+			buildPhases = (
+				60B0CC362AB1FD220051965C /* Sources */,
+				60B0CC372AB1FD220051965C /* Frameworks */,
+				60B0CC382AB1FD220051965C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B0CC3C2AB1FD220051965C /* PBXTargetDependency */,
+			);
+			name = "poolGame%....oOUITests";
+			productName = "poolGame%....oOUITests";
+			productReference = 60B0CC3A2AB1FD220051965C /* poolGame%....oOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B0CC172AB1FD1F0051965C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					60B0CC1E2AB1FD1F0051965C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					60B0CC2F2AB1FD220051965C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 60B0CC1E2AB1FD1F0051965C;
+					};
+					60B0CC392AB1FD220051965C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 60B0CC1E2AB1FD1F0051965C;
+					};
+				};
+			};
+			buildConfigurationList = 60B0CC1A2AB1FD1F0051965C /* Build configuration list for PBXProject "poolGame%....oO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B0CC162AB1FD1F0051965C;
+			productRefGroup = 60B0CC202AB1FD200051965C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B0CC1E2AB1FD1F0051965C /* poolGame%....oO */,
+				60B0CC2F2AB1FD220051965C /* poolGame%....oOTests */,
+				60B0CC392AB1FD220051965C /* poolGame%....oOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B0CC1D2AB1FD1F0051965C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B0CC2B2AB1FD210051965C /* Preview Assets.xcassets in Resources */,
+				60B0CC272AB1FD210051965C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0CC2E2AB1FD220051965C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0CC382AB1FD220051965C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B0CC1B2AB1FD1F0051965C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B0CC252AB1FD200051965C /* ContentView.swift in Sources */,
+				60B0CC232AB1FD200051965C /* poolGame_____oOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0CC2C2AB1FD220051965C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B0CC352AB1FD220051965C /* poolGame_____oOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B0CC362AB1FD220051965C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B0CC412AB1FD220051965C /* poolGame_____oOUITestsLaunchTests.swift in Sources */,
+				60B0CC3F2AB1FD220051965C /* poolGame_____oOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B0CC322AB1FD220051965C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B0CC1E2AB1FD1F0051965C /* poolGame%....oO */;
+			targetProxy = 60B0CC312AB1FD220051965C /* PBXContainerItemProxy */;
+		};
+		60B0CC3C2AB1FD220051965C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B0CC1E2AB1FD1F0051965C /* poolGame%....oO */;
+			targetProxy = 60B0CC3B2AB1FD220051965C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60B0CC422AB1FD220051965C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60B0CC432AB1FD220051965C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		60B0CC452AB1FD220051965C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "poolGame%....oO/poolGame_____oO.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"poolGame%....oO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Bater.poolGame-----oO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B0CC462AB1FD220051965C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "poolGame%....oO/poolGame_____oO.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"poolGame%....oO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Bater.poolGame-----oO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60B0CC482AB1FD220051965C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Bater.poolGame-----oOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poolGame%....oO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poolGame%....oO";
+			};
+			name = Debug;
+		};
+		60B0CC492AB1FD220051965C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Bater.poolGame-----oOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poolGame%....oO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poolGame%....oO";
+			};
+			name = Release;
+		};
+		60B0CC4B2AB1FD220051965C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Bater.poolGame-----oOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poolGame%....oO";
+			};
+			name = Debug;
+		};
+		60B0CC4C2AB1FD220051965C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Bater.poolGame-----oOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poolGame%....oO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B0CC1A2AB1FD1F0051965C /* Build configuration list for PBXProject "poolGame%....oO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B0CC422AB1FD220051965C /* Debug */,
+				60B0CC432AB1FD220051965C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B0CC442AB1FD220051965C /* Build configuration list for PBXNativeTarget "poolGame%....oO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B0CC452AB1FD220051965C /* Debug */,
+				60B0CC462AB1FD220051965C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B0CC472AB1FD220051965C /* Build configuration list for PBXNativeTarget "poolGame%....oOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B0CC482AB1FD220051965C /* Debug */,
+				60B0CC492AB1FD220051965C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B0CC4A2AB1FD220051965C /* Build configuration list for PBXNativeTarget "poolGame%....oOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B0CC4B2AB1FD220051965C /* Debug */,
+				60B0CC4C2AB1FD220051965C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B0CC172AB1FD1F0051965C /* Project object */;
+}
